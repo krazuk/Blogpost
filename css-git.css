@@ -10,7 +10,7 @@ body{
 }
 
 #cabecera{
-    background:  blue, url("imagennave.jpg") no-repeat left;
+    background:  blue;
     box-shadow: 0px 2px 20px 0px rgba(red, green, blue, alpha);
     color: black;
     font-weight: bold;
