@@ -1,4 +1,5 @@
 body{
+    background: gray;
     color: blue;
     text-align: left;
     font-family: "Arial";
@@ -9,12 +10,18 @@ body{
 }
 
 #cabecera{
-    background:    #33A;
+    background:  blue, url("imagennave.jpg") no-repeat left;
     box-shadow: 0px 2px 20px 0px rgba(red, green, blue, alpha);
-    color: white;
+    color: black;
     font-weight: bold;
     margin: 0;
     padding: 0,5em;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline{
@@ -44,4 +51,9 @@ body{
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
